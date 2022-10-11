@@ -13,7 +13,7 @@ public class FizzBuzz {
 
     public void print() {
         for (int i :
-                OrderedListCreator.getInstance()) {
+                integerList) {
             if (i % 3 == 0 && i % 5 == 0) {
                 System.out.println("fizbuzz");
             } else if (i % 3 == 0) {
