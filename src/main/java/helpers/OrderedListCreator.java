@@ -10,10 +10,9 @@ public class OrderedListCreator {
     private static Integer end;
 
     private OrderedListCreator() {
-
     }
 
-    private  static void createList(){
+    private static void createList() {
         if (start == null) {
             start = 1;
         }
@@ -25,7 +24,7 @@ public class OrderedListCreator {
     }
 
     public static List<Integer> getInstance() {
-        if(orderedList == null){
+        if (orderedList == null) {
             createList();
         }
         return orderedList;
